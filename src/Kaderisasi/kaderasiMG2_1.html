@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Layouting</title>
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+            body {
+                font-family: arial,Helvetica, sans-serif;
+                padding: 10px;
+                background-color: #f1f1f1;
+            }
+            header {
+                padding: 30px;
+                text-align: center;
+                background-color: #ffffff;
+            }
+            nav {
+                overflow: hidden;
+                background-color: #333333
+            }
+            nav a {
+                float: left;
+                display: block;
+                padding: 16px;
+                color: f1f1f1;
+                text-decoration: none; 
+            }
+            nav a:hover {
+                background-color: aqua;
+            }
+            section {
+                float: left;
+                width: 75%;
+            }
+            main: :after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+            footer {
+                padding: 20px;
+                text-align: center;
+                background-color: #333333;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>CSS Layouting</h1>
+        </header>
+
+        <nav>
+            <p><a href="#">link</a>
+            <p><a href="#">link</a>
+            <p><a href="#">link</a>
+            <p><a href="#">link</a>
+        </nav>
+
+        <main>
+        <section>Ini menu section</section>
+        <aside>Ini menu aside</aside>
+        </main>
+
+        <footer>Ini menu footer</footer>
+    </body>
+</html>

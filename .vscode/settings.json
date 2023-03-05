@@ -1,0 +1,12 @@
+{
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize":"14",
+    "window.zoomLevel": 0.5,
+    "workbench.colorTheme":"Visual Studio Dark - C++",
+    "workbench.iconTheme": "icons",
+    "files.associations": {
+        "iostream": "cpp",
+        "istream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}
